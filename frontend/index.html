@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduStake DAO | Web3 Protocol Dashboard</title>
+    <meta
+      name="description"
+      content="Dashboard premium do protocolo EduStake DAO para staking, NFTs, governança e integração Web3 na Sepolia."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar panel">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="./assets/logo.svg" alt="Logo EduStake DAO" />
+          </div>
+          <div>
+            <p class="eyebrow">Web3 Protocol</p>
+            <h1>EduStake DAO</h1>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a class="nav-item is-active" href="#dashboard"><span class="nav-icon">◫</span><span>Dashboard</span></a>
+          <a class="nav-item" href="#token"><span class="nav-icon">◌</span><span>Token</span></a>
+          <a class="nav-item" href="#nft-badges"><span class="nav-icon">◇</span><span>NFT Badges</span></a>
+          <a class="nav-item" href="#staking"><span class="nav-icon">▣</span><span>Staking</span></a>
+          <a class="nav-item" href="#governanca"><span class="nav-icon">◈</span><span>Governança</span></a>
+          <a class="nav-item" href="#explorer"><span class="nav-icon">◎</span><span>Explorer</span></a>
+          <a class="nav-item" href="#transacoes"><span class="nav-icon">▤</span><span>Transações</span></a>
+          <a class="nav-item" href="#faucet"><span class="nav-icon">◔</span><span>Faucet (Testnet)</span></a>
+          <a class="nav-item" href="#docs"><span class="nav-icon">☰</span><span>Docs</span></a>
+        </nav>
+
+        <div class="sidebar-footer panel panel-soft">
+          <p class="eyebrow">Resumo do protocolo</p>
+          <h2>MVP acadêmico com aparência de produto real.</h2>
+          <p class="muted">
+            Token, badges, staking, governança e oracle Chainlink em uma interface preparada
+            para futuras integrações on-chain.
+          </p>
+          <div class="mini-stats">
+            <div><strong>Sepolia</strong><span>Ambiente alvo</span></div>
+            <div><strong>Web3</strong><span>ethers.js + MetaMask</span></div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="dashboard">
+        <header class="topbar panel">
+          <div class="topbar-left">
+            <div class="network-pill" id="networkPill">
+              <span class="status-dot"></span>
+              <div>
+                <strong id="networkName">Sepolia Testnet</strong>
+                <span id="networkHint">Aguardando conexão</span>
+              </div>
+            </div>
+            <button class="ghost-button" id="refreshDataBtn" type="button">Atualizar dados</button>
+          </div>
+
+          <div class="topbar-right">
+            <div class="status-icons">
+              <span class="status-icon"></span>
+              <span class="status-icon status-icon--accent"></span>
+            </div>
+            <button class="wallet-chip" id="connectWalletBtn" type="button">
+              <span class="wallet-chip__label">Conectar carteira</span>
+              <span class="wallet-chip__address" id="connectedAddress">0x----...----</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="hero-grid">
+          <article class="hero panel panel-hero">
+            <div class="hero-copy">
+              <p class="eyebrow">Protocolo educacional descentralizado</p>
+              <h2>Bem-vindo ao EduStake DAO</h2>
+              <p class="hero-subtitle">
+                Ganhe tokens, conquiste NFTs, faça staking e participe das decisões da comunidade.
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#quick-actions">Explorar App</a>
+                <a class="button button-secondary" href="#docs">Ver Docs</a>
+              </div>
+            </div>
+
+            <div class="hero-orbit">
+              <div class="hero-badge">
+                <span>Premium</span>
+                <strong>DeFi x DAO</strong>
+              </div>
+            </div>
+          </article>
+
+          <section class="kpi-grid">
+            <article class="kpi-card panel">
+              <span class="kpi-label">EDU saldo</span>
+              <strong id="eduBalanceValue">0,00 EDU</strong>
+              <small id="eduBalanceMeta">Conecte a carteira para sincronizar</small>
+            </article>
+            <article class="kpi-card panel">
+              <span class="kpi-label">NFTs conquistados</span>
+              <strong id="nftBalanceValue">0 badges</strong>
+              <small id="nftBalanceMeta">Coleção acadêmica</small>
+            </article>
+            <article class="kpi-card panel">
+              <span class="kpi-label">Total em staking</span>
+              <strong id="stakedValue">0,00 EDU</strong>
+              <small id="stakedMeta">Posição conectada</small>
+            </article>
+            <article class="kpi-card panel">
+              <span class="kpi-label">Poder de voto</span>
+              <strong id="governancePowerValue">0,00 EDU</strong>
+              <small id="governancePowerMeta">Baseado no saldo atual</small>
+            </article>
+          </section>
+        </section>
+
+        <section class="content-grid">
+          <article class="panel section-card" id="quick-actions">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Operações rápidas</p>
+                <h3>Ações rápidas</h3>
+              </div>
+              <span class="section-tag">Web3 cockpit</span>
+            </div>
+
+            <div class="action-grid">
+              <button class="action-card action-card--cyan" data-scroll-target="token">
+                <span class="action-card__icon">◉</span>
+                <strong>Conectar carteira</strong>
+                <p>Sincronize sua identidade Web3 com MetaMask.</p>
+              </button>
+              <button class="action-card action-card--violet" data-scroll-target="nft-badges">
+                <span class="action-card__icon">◇</span>
+                <strong>Mintar NFT badge</strong>
+                <p>Emitir badge acadêmica com URI customizada.</p>
+              </button>
+              <button class="action-card action-card--green" data-scroll-target="staking">
+                <span class="action-card__icon">▣</span>
+                <strong>Fazer stake de EDU</strong>
+                <p>Travar tokens e visualizar recompensas estimadas.</p>
+              </button>
+              <button class="action-card action-card--amber" data-scroll-target="governanca">
+                <span class="action-card__icon">◈</span>
+                <strong>Votar na DAO</strong>
+                <p>Participar de decisões usando saldo de EDU.</p>
+              </button>
+            </div>
+          </article>
+
+          <article class="panel section-card overview-card">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Métricas do protocolo</p>
+                <h3>Visão geral</h3>
+              </div>
+              <span class="section-tag section-tag--blue">Oracle + staking</span>
+            </div>
+
+            <div class="overview-list">
+              <div class="overview-row">
+                <div><strong>Preço ETH/USD</strong><span>Chainlink Oracle</span></div>
+                <div class="overview-value" id="oraclePriceValue">$ --</div>
+              </div>
+              <div class="overview-row">
+                <div><strong>APY atual</strong><span>Taxa estimada do staking</span></div>
+                <div class="overview-value" id="apyValue">--%</div>
+              </div>
+              <div class="overview-row">
+                <div><strong>Total staked</strong><span>No contrato</span></div>
+                <div class="overview-value" id="totalStakedValue">-- EDU</div>
+              </div>
+              <div class="overview-row">
+                <div><strong>Recompensas disponíveis</strong><span>Sua posição conectada</span></div>
+                <div class="overview-value" id="pendingRewardsValue">-- EDU</div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="dashboard-columns">
+          <article class="panel section-card staking-card" id="staking">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Posição ativa</p>
+                <h3>Staking</h3>
+              </div>
+              <span class="section-tag section-tag--green">Estratégia EDU</span>
+            </div>
+
+            <div class="staking-metrics">
+              <div><span>Seu stake</span><strong id="stakingPositionValue">0,00 EDU</strong></div>
+              <div><span>Recompensas pendentes</span><strong id="stakingRewardsValue">0,00 EDU</strong></div>
+            </div>
+
+            <div class="progress-block">
+              <div class="progress-header">
+                <span>Eficiência da posição</span>
+                <strong id="progressLabel">0%</strong>
+              </div>
+              <div class="progress-track">
+                <div class="progress-bar" id="stakingProgressBar"></div>
+              </div>
+            </div>
+
+            <form class="dashboard-form" id="stakeForm">
+              <div class="field-group">
+                <label for="stakeAmount">Quantidade de EDU</label>
+                <input id="stakeAmount" type="number" min="0" step="0.01" value="10" />
+              </div>
+              <div class="field-group field-group-inline">
+                <div><span class="field-meta">APY atual</span><strong id="stakingApyValue">--%</strong></div>
+                <button class="button button-success" type="submit">Aprovar e fazer stake</button>
+              </div>
+            </form>
+          </article>
+
+          <article class="panel section-card" id="governanca">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Governança simplificada</p>
+                <h3>Propostas da DAO</h3>
+              </div>
+              <span class="section-tag">DAO</span>
+            </div>
+
+            <div class="proposal-list" id="proposalList"></div>
+
+            <form class="dashboard-form compact-form" id="voteForm">
+              <div class="field-group">
+                <label for="proposalId">ID da proposta</label>
+                <input id="proposalId" type="number" min="1" value="1" />
+              </div>
+              <div class="field-group">
+                <label for="voteChoice">Voto</label>
+                <select id="voteChoice">
+                  <option value="true">Sim</option>
+                  <option value="false">Não</option>
+                </select>
+              </div>
+              <button class="button button-primary" type="submit">Registrar voto</button>
+            </form>
+          </article>
+
+          <article class="panel section-card" id="nft-badges">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Reputação on-chain</p>
+                <h3>Badges recentes</h3>
+              </div>
+              <span class="section-tag section-tag--violet">NFT</span>
+            </div>
+
+            <div class="badge-grid" id="badgeGrid"></div>
+
+            <form class="dashboard-form" id="mintForm">
+              <div class="field-group">
+                <label for="nftRecipient">Carteira de destino</label>
+                <input id="nftRecipient" type="text" placeholder="0x..." />
+              </div>
+              <div class="field-group">
+                <label for="nftTokenUri">Token URI</label>
+                <input id="nftTokenUri" type="text" value="https://example.com/metadata/edubadge-premium.json" />
+              </div>
+              <button class="button button-violet" type="submit">Mintar NFT badge</button>
+            </form>
+          </article>
+        </section>
+
+        <section class="dashboard-columns dashboard-columns--bottom">
+          <article class="panel section-card" id="transacoes">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Timeline operacional</p>
+                <h3>Log de atividades</h3>
+              </div>
+              <span class="section-tag section-tag--cyan">Observabilidade</span>
+            </div>
+
+            <div class="activity-list" id="activityList"></div>
+
+            <div class="status-console" id="statusConsole">
+              <div class="status-console__header">
+                <span class="eyebrow">Status do app</span>
+                <span id="statusTimestamp">Agora</span>
+              </div>
+              <p id="appStatus">Dashboard pronto para conexão com MetaMask e leitura de dados.</p>
+            </div>
+          </article>
+
+          <article class="panel section-card" id="explorer">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Configuração</p>
+                <h3>Explorer e contratos</h3>
+              </div>
+              <span class="section-tag section-tag--amber">Setup</span>
+            </div>
+
+            <form class="dashboard-form" id="configForm">
+              <div class="field-grid">
+                <div class="field-group"><label for="tokenAddress">EduToken</label><input id="tokenAddress" type="text" /></div>
+                <div class="field-group"><label for="nftAddress">EduBadgeNFT</label><input id="nftAddress" type="text" /></div>
+                <div class="field-group"><label for="stakingAddress">Staking</label><input id="stakingAddress" type="text" /></div>
+                <div class="field-group"><label for="daoAddress">SimpleDAO</label><input id="daoAddress" type="text" /></div>
+                <div class="field-group field-group--full"><label for="priceConsumerAddress">PriceConsumer</label><input id="priceConsumerAddress" type="text" /></div>
+              </div>
+
+              <div class="button-row">
+                <button class="button button-secondary" type="submit">Salvar configuração</button>
+                <button class="button button-ghost" id="resetConfigBtn" type="button">Restaurar padrão</button>
+              </div>
+            </form>
+
+            <div class="link-grid">
+              <a class="link-card" id="docs" target="_blank" rel="noreferrer">
+                <strong>Docs</strong>
+                <span>Guia do projeto e arquitetura do protocolo.</span>
+              </a>
+              <a class="link-card" id="faucet" target="_blank" rel="noreferrer">
+                <strong>Faucet Sepolia</strong>
+                <span>Solicite ETH de teste para operar o MVP.</span>
+              </a>
+            </div>
+          </article>
+        </section>
+
+        <section class="panel section-card protocol-stats" id="token">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Telemetria simulada</p>
+              <h3>Estatísticas do protocolo</h3>
+            </div>
+            <span class="section-tag section-tag--blue">Product view</span>
+          </div>
+
+          <div class="stats-grid" id="protocolStatsGrid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.13.4/dist/ethers.umd.min.js"></script>
+    <script src="./config.js"></script>
+    <script src="./mock-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

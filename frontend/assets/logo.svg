@@ -1,0 +1,32 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="8" width="112" height="112" rx="32" fill="url(#bg)" />
+  <rect x="8.75" y="8.75" width="110.5" height="110.5" rx="31.25" stroke="url(#stroke)" stroke-opacity="0.6" stroke-width="1.5" />
+  <path d="M64 24L95 38V63C95 82.2 82.9 99.5 64 105C45.1 99.5 33 82.2 33 63V38L64 24Z" fill="url(#shield)" stroke="#F6C55B" stroke-width="3" />
+  <path d="M64 39L82 47V62.5C82 75.1 74.2 86.5 64 90C53.8 86.5 46 75.1 46 62.5V47L64 39Z" fill="url(#inner)" stroke="#FFDC88" stroke-width="2" />
+  <path d="M42 92C49 99 55.5 103 64 105C72.5 103 79 99 86 92" stroke="#52D3FF" stroke-width="4" stroke-linecap="round" />
+  <path d="M64 47L80 54L64 61L48 54L64 47Z" fill="#FFD66E" />
+  <path d="M53 58V68L64 74L75 68V58L64 64L53 58Z" fill="#F2B236" />
+  <circle cx="64" cy="64" r="48" stroke="url(#halo)" stroke-opacity="0.22" stroke-width="2" />
+  <defs>
+    <linearGradient id="bg" x1="20" y1="16" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111823" />
+      <stop offset="1" stop-color="#070B12" />
+    </linearGradient>
+    <linearGradient id="stroke" x1="20" y1="20" x2="108" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCB57" />
+      <stop offset="1" stop-color="#4CA8FF" />
+    </linearGradient>
+    <linearGradient id="shield" x1="64" y1="24" x2="64" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B1B03" />
+      <stop offset="1" stop-color="#120C02" />
+    </linearGradient>
+    <linearGradient id="inner" x1="64" y1="39" x2="64" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCD55" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#E89512" stop-opacity="0.14" />
+    </linearGradient>
+    <linearGradient id="halo" x1="24" y1="22" x2="107" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFCB57" />
+      <stop offset="1" stop-color="#52D3FF" />
+    </linearGradient>
+  </defs>
+</svg>
