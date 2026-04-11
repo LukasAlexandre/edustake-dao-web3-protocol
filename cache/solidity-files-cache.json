@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\EduBadgeNFT.sol": {
-      "lastModificationDate": 1775842101724,
-      "contentHash": "7e97e940000d127492ffa3e167b45df8",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\EduBadgeNFT.sol": {
+      "lastModificationDate": 1775864443156,
+      "contentHash": "24b93751b71b5ade17acba3fa533c6df",
       "sourceName": "contracts/EduBadgeNFT.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -40,9 +40,9 @@
         "EduBadgeNFT"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1775842688048,
-      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1775864450898,
+      "contentHash": "f665fc4a91af3170f86727fc49cc091f",
       "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -78,9 +78,9 @@
         "Ownable"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
-      "lastModificationDate": 1775842686135,
-      "contentHash": "221dcf8b1c5b31b54dc3f5adc039af6f",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\ERC721URIStorage.sol": {
+      "lastModificationDate": 1775864451299,
+      "contentHash": "0e6d3653db82ebd261ce9ea5b5cae9c2",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -119,9 +119,9 @@
         "ERC721URIStorage"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1775842683044,
-      "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1775864451324,
+      "contentHash": "2783b901218e982baedae531a748ed8d",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -155,9 +155,9 @@
         "Context"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
-      "lastModificationDate": 1775842687354,
-      "contentHash": "947853028399b7de34bcc3704ee06e99",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1775864451195,
+      "contentHash": "135c199224b230d9d9e86745b871274b",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -191,9 +191,9 @@
       ],
       "artifacts": []
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
-      "lastModificationDate": 1775842687551,
-      "contentHash": "4386d2e9b1578157802062e156bd9ae1",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC4906.sol": {
+      "lastModificationDate": 1775864451210,
+      "contentHash": "3106c0c315787aff46db421993bb8a41",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC4906.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -230,9 +230,9 @@
         "IERC4906"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
-      "lastModificationDate": 1775842685939,
-      "contentHash": "ad5144b924800b6f617bc84e4f1fb556",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1775864451286,
+      "contentHash": "b9ea3e2d4d252fd41492020764f40830",
       "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -274,9 +274,9 @@
         "ERC721"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
-      "lastModificationDate": 1775842687683,
-      "contentHash": "136c64eca25bcb8a68f43ac6605559f9",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1775864451300,
+      "contentHash": "a391491300d203dfc6369d39ae7df652",
       "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -312,9 +312,9 @@
         "IERC721Metadata"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
-      "lastModificationDate": 1775842687361,
-      "contentHash": "7074c93b1ea0a122063f26ddd1db1032",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1775864451370,
+      "contentHash": "ff4d1e14b9194d66aa102ea99c561d87",
       "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -348,9 +348,9 @@
         "IERC165"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
-      "lastModificationDate": 1775842687629,
-      "contentHash": "6b9716905fb42874ed1769ae7f7458b1",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC721.sol": {
+      "lastModificationDate": 1775864451216,
+      "contentHash": "93ff079df9bd3a4430da52164b3c6865",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC721.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -384,9 +384,9 @@
       ],
       "artifacts": []
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
-      "lastModificationDate": 1775842687645,
-      "contentHash": "f62e11dbd302e17a5621a1438f4e054c",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721.sol": {
+      "lastModificationDate": 1775864451291,
+      "contentHash": "35b4819b8291b5f3cfbec6221ee9185c",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -422,9 +422,9 @@
         "IERC721"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
-      "lastModificationDate": 1775842683806,
-      "contentHash": "bcc76f4747d56c28c40ae272ef3470a6",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\draft-IERC6093.sol": {
+      "lastModificationDate": 1775864451224,
+      "contentHash": "09a8b51c5946a9ab0a3b0858bdd616ed",
       "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -460,9 +460,9 @@
         "IERC721Errors"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1775842688881,
-      "contentHash": "d2fa243e766a193585b7e9bf36898d80",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1775864451339,
+      "contentHash": "2bbe6f37d6456613b70200fa69aa8905",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -501,9 +501,9 @@
         "Strings"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
-      "lastModificationDate": 1775842685153,
-      "contentHash": "0906d06dca25210d4696dcef6dad2909",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1775864451369,
+      "contentHash": "150f1488899c7faea5e9e6fe08113c8b",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -539,9 +539,9 @@
         "ERC165"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\utils\\ERC721Utils.sol": {
-      "lastModificationDate": 1775842686165,
-      "contentHash": "eaad77accc6e32b20dfbbbe9813e1dce",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\utils\\ERC721Utils.sol": {
+      "lastModificationDate": 1775864451306,
+      "contentHash": "2ba55a47b6f92e8f759aa7ce62870719",
       "sourceName": "@openzeppelin/contracts/token/ERC721/utils/ERC721Utils.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -578,9 +578,9 @@
         "ERC721Utils"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Bytes.sol": {
-      "lastModificationDate": 1775842682632,
-      "contentHash": "3b32ea3a40a2d708f61e7161f081ca93",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Bytes.sol": {
+      "lastModificationDate": 1775864451315,
+      "contentHash": "cdd7d141ecd693bdb2b56836acbbc169",
       "sourceName": "@openzeppelin/contracts/utils/Bytes.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -616,83 +616,9 @@
         "Bytes"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
-      "lastModificationDate": 1775842688744,
-      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
-      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "cancun",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "SignedMath"
-      ]
-    },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
-      "lastModificationDate": 1775842688698,
-      "contentHash": "f28a38cd37f4225d0a91fb5405dd850f",
-      "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
-      "solcConfig": {
-        "version": "0.8.26",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "cancun",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "SafeCast"
-      ]
-    },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
-      "lastModificationDate": 1775842687881,
-      "contentHash": "5b8c6935ac52b7494df19d6feb38f5cc",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1775864451372,
+      "contentHash": "0ea0139b1ca30c051319d863ab8efd89",
       "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -729,9 +655,83 @@
         "Math"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
-      "lastModificationDate": 1775842688139,
-      "contentHash": "2133dc13536b4a6a98131e431fac59e1",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1775864451373,
+      "contentHash": "e5a40b88593f114ca4606065b530c54d",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
+    },
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
+      "lastModificationDate": 1775864451372,
+      "contentHash": "9fd2f73abe70722e05cef4ef8c477a3f",
+      "sourceName": "@openzeppelin/contracts/utils/math/SafeCast.sol",
+      "solcConfig": {
+        "version": "0.8.26",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "cancun",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "SafeCast"
+      ]
+    },
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\Panic.sol": {
+      "lastModificationDate": 1775864451332,
+      "contentHash": "d48fd42f5fe53f9221e19b61f6b64cac",
       "sourceName": "@openzeppelin/contracts/utils/Panic.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -765,9 +765,9 @@
         "Panic"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
-      "lastModificationDate": 1775842687725,
-      "contentHash": "d61660a41ce200e99816e4734f7fd202",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1775864451291,
+      "contentHash": "39fb34bbba610a0589cd46678d5e0ea0",
       "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -801,9 +801,9 @@
         "IERC721Receiver"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1775842685320,
-      "contentHash": "d15c4d05583536e080f1960ab282772d",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1775864451263,
+      "contentHash": "086fe6f7bce5b21b01955066ff27d9f2",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -842,9 +842,9 @@
         "ERC20"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1775842687408,
-      "contentHash": "9261adf6457863de3e9892f51317ec89",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1775864451263,
+      "contentHash": "a00cf658e29421979ba74ec1db151c1a",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -878,9 +878,9 @@
         "IERC20"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
-      "lastModificationDate": 1775842687442,
-      "contentHash": "513778b30d2750f5d2b9b19bbcf748a5",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1775864451274,
+      "contentHash": "7e10cffb8881a54674e96fee07b2649f",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -916,9 +916,9 @@
         "IERC20Metadata"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1775842687397,
-      "contentHash": "68620db2da7583d9a4919096ac77f577",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC20.sol": {
+      "lastModificationDate": 1775864451199,
+      "contentHash": "b95e9b15fbe03c4924f457d71754234e",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -952,9 +952,9 @@
       ],
       "artifacts": []
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC1363.sol": {
-      "lastModificationDate": 1775842687302,
-      "contentHash": "a7fd0f05e36b0d0a21c75340c9c639ec",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC1363.sol": {
+      "lastModificationDate": 1775864451195,
+      "contentHash": "f96044e0027d477621b9f0e5fc8d2c1e",
       "sourceName": "@openzeppelin/contracts/interfaces/IERC1363.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -991,9 +991,9 @@
         "IERC1363"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
-      "lastModificationDate": 1775842688709,
-      "contentHash": "bf8e9c3398d381dc66c5302267927386",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1775864451280,
+      "contentHash": "860765b1de4f21653c2fa2f7e7028dd9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1030,9 +1030,9 @@
         "SafeERC20"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\Staking.sol": {
-      "lastModificationDate": 1775842129467,
-      "contentHash": "85434d3570c78880b490c27c63817d1c",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\Staking.sol": {
+      "lastModificationDate": 1775864443159,
+      "contentHash": "87fa91b50d45363c8ac4502c7af028e0",
       "sourceName": "contracts/Staking.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1072,9 +1072,9 @@
         "Staking"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\PriceConsumer.sol": {
-      "lastModificationDate": 1775842944428,
-      "contentHash": "f14aad4bad44f6d7df79d871c9beb2c5",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\PriceConsumer.sol": {
+      "lastModificationDate": 1775864443159,
+      "contentHash": "8bb3b766437939e11eb15fcd71b506db",
       "sourceName": "contracts/PriceConsumer.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1110,9 +1110,9 @@
         "PriceConsumer"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuard.sol": {
-      "lastModificationDate": 1775842688326,
-      "contentHash": "6e5efb502dd6652d12ad15eea2c5bdf4",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1775864451335,
+      "contentHash": "9a5b0ade82ac3501355a963afda1b081",
       "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1148,9 +1148,9 @@
         "ReentrancyGuard"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\AggregatorV3Interface.sol": {
-      "lastModificationDate": 1775842681887,
-      "contentHash": "64a3f906dc7696aa3c9fa8454b673be7",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@chainlink\\contracts\\src\\v0.8\\shared\\interfaces\\AggregatorV3Interface.sol": {
+      "lastModificationDate": 1775864445380,
+      "contentHash": "296df4bbace2d86a12f14169a8eb612d",
       "sourceName": "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1184,9 +1184,9 @@
         "AggregatorV3Interface"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
-      "lastModificationDate": 1775842688860,
-      "contentHash": "e656d64c4ce918f3d13030b91c935134",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\node_modules\\@openzeppelin\\contracts\\utils\\StorageSlot.sol": {
+      "lastModificationDate": 1775864451339,
+      "contentHash": "c6edb541dfe1cc6e1604dae14d0c57aa",
       "sourceName": "@openzeppelin/contracts/utils/StorageSlot.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1220,9 +1220,9 @@
         "StorageSlot"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\EduToken.sol": {
-      "lastModificationDate": 1775842101723,
-      "contentHash": "3a47dd08832456cb35477a8c11b5d679",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\EduToken.sol": {
+      "lastModificationDate": 1775864443156,
+      "contentHash": "5368121094287ba6802322ac38294b11",
       "sourceName": "contracts/EduToken.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1259,9 +1259,9 @@
         "EduToken"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\SimpleDAO.sol": {
-      "lastModificationDate": 1775842129468,
-      "contentHash": "3a2f2c18b9e6b2ebc550fae149b6afd1",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\SimpleDAO.sol": {
+      "lastModificationDate": 1775864443159,
+      "contentHash": "895a46ea9b9e03b26ff3a362f5485cad",
       "sourceName": "contracts/SimpleDAO.sol",
       "solcConfig": {
         "version": "0.8.26",
@@ -1297,9 +1297,9 @@
         "SimpleDAO"
       ]
     },
-    "C:\\Users\\LARos\\Documents\\Dev\\Remix\\edustake-dao\\edustake-dao-web3-protocol\\contracts\\MockV3Aggregator.sol": {
-      "lastModificationDate": 1775842101727,
-      "contentHash": "35acb4474e77b9b1435d455b27096b64",
+    "C:\\Users\\lukas\\Documents\\Dev\\Web\\edustake-dao-web3-protocol\\contracts\\MockV3Aggregator.sol": {
+      "lastModificationDate": 1775864443159,
+      "contentHash": "0bbcaf350209f74493e9eab785d6905d",
       "sourceName": "contracts/MockV3Aggregator.sol",
       "solcConfig": {
         "version": "0.8.26",

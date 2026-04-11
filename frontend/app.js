@@ -154,6 +154,33 @@
     return Boolean(address) && ethers.isAddress(address);
   }
 
+  function hasConfiguredContracts(contracts) {
+    return Object.values(contracts).some((address) => isConfiguredAddress(address));
+  }
+
+  async function preloadLocalContracts() {
+    if (!config.autoLoadLocalContracts || !config.localContractsUrl) {
+      return;
+    }
+
+    try {
+      const response = await fetch(config.localContractsUrl, { cache: "no-store" });
+      if (!response.ok) {
+        return;
+      }
+
+      const payload = await response.json();
+      if (!payload?.contracts || !hasConfiguredContracts(payload.contracts)) {
+        return;
+      }
+
+      state.contracts = { ...config.defaultContracts, ...payload.contracts };
+      window.localStorage.setItem(config.storageKey, JSON.stringify(state.contracts));
+    } catch (error) {
+      console.warn("Nao foi possivel carregar a configuracao local dos contratos.", error);
+    }
+  }
+
   function hydrateConfigForm() {
     document.getElementById("tokenAddress").value = state.contracts.token;
     document.getElementById("nftAddress").value = state.contracts.nft;
@@ -164,7 +191,11 @@
 
   function renderProtocolLinks() {
     elements.docsLink.href = config.docsUrl;
+    elements.docsLink.querySelector("strong").textContent = config.docsCardTitle;
+    elements.docsLink.querySelector("span").textContent = config.docsCardDescription;
     elements.faucetLink.href = config.faucetUrl;
+    elements.faucetLink.querySelector("strong").textContent = config.faucetCardTitle;
+    elements.faucetLink.querySelector("span").textContent = config.faucetCardDescription;
   }
 
   function renderBadges() {
@@ -484,6 +515,94 @@
     return error?.shortMessage || error?.reason || error?.message || "falha desconhecida";
   }
 
+  function shouldUseLocalSignerFallback(error) {
+    if (
+      !config.autoLoadLocalContracts ||
+      !config.localDevRpcUrl ||
+      !config.localDevPrivateKey ||
+      !config.localDevAddress ||
+      !state.walletAddress
+    ) {
+      return false;
+    }
+
+    const connected = state.walletAddress.toLowerCase();
+    const localDev = config.localDevAddress.toLowerCase();
+    const message = extractError(error).toLowerCase();
+
+    return connected === localDev && message.includes("failed to fetch");
+  }
+
+  function getLocalDevSigner() {
+    const provider = new ethers.JsonRpcProvider(config.localDevRpcUrl);
+    return new ethers.Wallet(config.localDevPrivateKey, provider);
+  }
+
+  function shouldUseLocalDevSigner() {
+    if (
+      !config.autoLoadLocalContracts ||
+      !config.localDevRpcUrl ||
+      !config.localDevPrivateKey ||
+      !config.localDevAddress ||
+      !state.walletAddress
+    ) {
+      return false;
+    }
+
+    return state.walletAddress.toLowerCase() === config.localDevAddress.toLowerCase();
+  }
+
+  function getPreferredWriteSigner() {
+    if (shouldUseLocalDevSigner()) {
+      return getLocalDevSigner();
+    }
+
+    return state.signer;
+  }
+
+  async function withLocalSignerFallback(error, callback) {
+    if (!shouldUseLocalSignerFallback(error)) {
+      throw error;
+    }
+
+    setStatus(
+      "MetaMask falhou na rede local. Reenviando pela conta de desenvolvimento do Hardhat...",
+    );
+
+    return callback(getLocalDevSigner());
+  }
+
+  async function sendMintBadge(signer, recipient, tokenUri) {
+    const contract = new ethers.Contract(state.contracts.nft, nftAbi, signer);
+    const tx = await contract.mintBadge(recipient, tokenUri);
+    setStatus(`Mint de badge enviado. Hash: ${tx.hash}`);
+    await tx.wait();
+    return tx;
+  }
+
+  async function sendStakeFlow(signer, amount) {
+    const tokenContract = new ethers.Contract(state.contracts.token, tokenAbi, signer);
+    const stakingContract = new ethers.Contract(state.contracts.staking, stakingAbi, signer);
+
+    const approveTx = await tokenContract.approve(state.contracts.staking, amount);
+    setStatus(`Approval enviada. Hash: ${approveTx.hash}`);
+    await approveTx.wait();
+
+    const stakeTx = await stakingContract.stake(amount);
+    setStatus(`Stake enviado. Hash: ${stakeTx.hash}`);
+    await stakeTx.wait();
+
+    return stakeTx;
+  }
+
+  async function sendVote(signer, proposalId, support) {
+    const daoContract = new ethers.Contract(state.contracts.dao, daoAbi, signer);
+    const tx = await daoContract.vote(proposalId, support);
+    setStatus(`Voto enviado para a proposta #${proposalId}. Hash: ${tx.hash}`);
+    await tx.wait();
+    return tx;
+  }
+
   async function mintNFT(event) {
     event.preventDefault();
 
@@ -506,10 +625,17 @@
     }
 
     try {
-      const contract = new ethers.Contract(state.contracts.nft, nftAbi, state.signer);
-      const tx = await contract.mintBadge(recipient, tokenUri);
-      setStatus(`Mint de badge enviado. Hash: ${tx.hash}`);
-      await tx.wait();
+      let tx;
+      const preferredSigner = getPreferredWriteSigner();
+
+      try {
+        tx = await sendMintBadge(preferredSigner, recipient, tokenUri);
+      } catch (error) {
+        tx = await withLocalSignerFallback(error, (signer) =>
+          sendMintBadge(signer, recipient, tokenUri),
+        );
+      }
+
       setStatus("Badge NFT mintado com sucesso.", "success");
       recordActivity({
         title: "NFT badge mintado",
@@ -544,16 +670,13 @@
     }
 
     try {
-      const tokenContract = new ethers.Contract(state.contracts.token, tokenAbi, state.signer);
-      const stakingContract = new ethers.Contract(state.contracts.staking, stakingAbi, state.signer);
-
-      const approveTx = await tokenContract.approve(state.contracts.staking, amount);
-      setStatus(`Approval enviada. Hash: ${approveTx.hash}`);
-      await approveTx.wait();
-
-      const stakeTx = await stakingContract.stake(amount);
-      setStatus(`Stake enviado. Hash: ${stakeTx.hash}`);
-      await stakeTx.wait();
+      let stakeTx;
+      const preferredSigner = getPreferredWriteSigner();
+      try {
+        stakeTx = await sendStakeFlow(preferredSigner, amount);
+      } catch (error) {
+        stakeTx = await withLocalSignerFallback(error, (signer) => sendStakeFlow(signer, amount));
+      }
 
       setStatus(`Stake de ${amountValue} EDU concluído com sucesso.`, "success");
       recordActivity({
@@ -589,10 +712,15 @@
     }
 
     try {
-      const daoContract = new ethers.Contract(state.contracts.dao, daoAbi, state.signer);
-      const tx = await daoContract.vote(proposalId, support);
-      setStatus(`Voto enviado para a proposta #${proposalId}. Hash: ${tx.hash}`);
-      await tx.wait();
+      let tx;
+      const preferredSigner = getPreferredWriteSigner();
+
+      try {
+        tx = await sendVote(preferredSigner, proposalId, support);
+      } catch (error) {
+        tx = await withLocalSignerFallback(error, (signer) => sendVote(signer, proposalId, support));
+      }
+
       setStatus(`Voto registrado na proposta #${proposalId}.`, "success");
       recordActivity({
         title: `Voto na proposta #${proposalId}`,
@@ -611,6 +739,12 @@
         const target = document.getElementById(button.dataset.scrollTarget);
         if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
       });
+    });
+  }
+
+  function bindActionButtons() {
+    document.querySelectorAll('[data-action="connect-wallet"]').forEach((button) => {
+      button.addEventListener("click", connectWallet);
     });
   }
 
@@ -637,8 +771,9 @@
       await syncLiveData();
     });
 
-    elements.resetConfigBtn.addEventListener("click", () => {
+    elements.resetConfigBtn.addEventListener("click", async () => {
       saveConfig({ ...config.defaultContracts });
+      await preloadLocalContracts();
       hydrateConfigForm();
       setStatus("Endereços restaurados para o padrão do template.");
     });
@@ -673,7 +808,8 @@
     }
   }
 
-  function bootstrap() {
+  async function bootstrap() {
+    await preloadLocalContracts();
     hydrateConfigForm();
     renderProtocolLinks();
     renderBadges();
@@ -685,6 +821,7 @@
     updateOverviewUI();
     bindEvents();
     bindScrollActions();
+    bindActionButtons();
   }
 
   bootstrap();
