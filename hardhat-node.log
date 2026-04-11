@@ -327,3 +327,1613 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 
 [32meth_getTransactionByHash[0m
 [32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_chainId (3)[0m
+[32meth_chainId (4)[0m
+[32meth_chainId (5)[0m
+[32meth_chainId (6)[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_getBalance[0m
+[32mnet_version[0m
+[32mnet_version (2)[0m
+[32mnet_version (3)[0m
+[32mnet_version (4)[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_chainId[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_blockNumber (8)[0m
+[32meth_blockNumber (9)[0m
+[32meth_blockNumber (10)[0m
+[32meth_blockNumber (11)[0m
+[32meth_blockNumber (12)[0m
+[32meth_blockNumber (13)[0m
+[32meth_blockNumber (14)[0m
+[32meth_blockNumber (15)[0m
+[32meth_blockNumber (16)[0m
+[32meth_blockNumber (17)[0m
+[32meth_blockNumber (18)[0m
+[32meth_blockNumber (19)[0m
+[32meth_blockNumber (20)[0m
+[32meth_blockNumber (21)[0m
+[32meth_blockNumber (22)[0m
+[32meth_blockNumber (23)[0m
+[32meth_blockNumber (24)[0m
+[32meth_blockNumber (25)[0m
+[32meth_blockNumber (26)[0m
+[32meth_blockNumber (27)[0m
+[32meth_blockNumber (28)[0m
+[32meth_blockNumber (29)[0m
+[32meth_blockNumber (30)[0m
+[32meth_blockNumber (31)[0m
+[32meth_blockNumber (32)[0m
+[32meth_blockNumber (33)[0m
+[32meth_blockNumber (34)[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_blockNumber[0m
+[31meth_estimateGas[0m
+  Contract call:       SimpleDAO#vote
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+  Value:               0 ETH
+
+  Error: reverted with reason string 'Proposal does not exist'
+
+[31meth_estimateGas[0m
+  Contract call:       SimpleDAO#vote
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+  Value:               0 ETH
+
+  Error: reverted with reason string 'Proposal does not exist'
+
+[32meth_blockNumber[0m
+[31meth_estimateGas[0m
+  Contract call:       SimpleDAO#vote
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+  Value:               0 ETH
+
+  Error: reverted with reason string 'Proposal does not exist'
+
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[32meth_accounts[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#symbol
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduToken#decimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[32meth_getTransactionCount[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_accounts[0m
+[32mhardhat_metadata[0m
+[32mhardhat_metadata (2)[0m
+[32mhardhat_metadata (3)[0m
+[32mhardhat_metadata (4)[0m
+[32mhardhat_metadata (5)[0m
+[32mhardhat_metadata (6)[0m
+[32mhardhat_metadata (7)[0m
+[32mhardhat_metadata (8)[0m
+[32mhardhat_metadata (9)[0m
+[32mhardhat_metadata (10)[0m
+[32mhardhat_metadata (11)[0m
+[32mhardhat_metadata (12)[0m
+[32mhardhat_metadata (13)[0m
+[32mhardhat_metadata (14)[0m
+[32mhardhat_metadata (15)[0m
+[32mhardhat_metadata (16)[0m
+[32mhardhat_metadata (17)[0m
+[32mhardhat_metadata (18)[0m
+[32mhardhat_metadata (19)[0m
+[32mhardhat_metadata (20)[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       SimpleDAO#createProposal
+  Transaction:         0x318019a6038f12edc493cff15c902f8b030a3ae3ac14357e12d92ac237c7e3fb
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+  Value:               0 ETH
+  Gas used:            237121 of 16777216
+  Block #9:            0xa6dff7ef8f28e9ef41f4f19d8a2904703730fe1879d2110ddf04d93a7911b8d2
+
+[32meth_getTransactionByHash[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[32meth_getTransactionCount[0m
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_getBlockByNumber[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       SimpleDAO#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#hasVoted
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_accounts[0m
+[32mhardhat_metadata[0m
+[32mhardhat_metadata (2)[0m
+[32mhardhat_metadata (3)[0m
+[32mhardhat_metadata (4)[0m
+[32mhardhat_metadata (5)[0m
+[32mhardhat_metadata (6)[0m
+[32mhardhat_metadata (7)[0m
+[32mhardhat_metadata (8)[0m
+[32mhardhat_metadata (9)[0m
+[32mhardhat_metadata (10)[0m
+[32mhardhat_metadata (11)[0m
+[32mhardhat_metadata (12)[0m
+[32mhardhat_metadata (13)[0m
+[32mhardhat_metadata (14)[0m
+[32mhardhat_metadata (15)[0m
+[32mhardhat_metadata (16)[0m
+[32mhardhat_metadata (17)[0m
+[32mhardhat_metadata (18)[0m
+[32mhardhat_metadata (19)[0m
+[32mhardhat_metadata (20)[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       SimpleDAO#vote
+  Transaction:         0xf3195664735f99706ac2354257fc08f9e644a124b6bd43413b06d7153a5015fb
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+  Value:               0 ETH
+  Gas used:            78316 of 16777216
+  Block #10:           0x01ec4d372141304baa316e07d461667833eea7da14945c36d9bb1ae330f0838c
+
+[32meth_getTransactionByHash[0m
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       SimpleDAO#hasVoted
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#symbol
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduToken#decimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_getTransactionCount[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_getBlockByNumber[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       EduToken#allowance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_blockNumber[0m
+[32meth_accounts[0m
+[32mhardhat_metadata[0m
+[32mhardhat_metadata (2)[0m
+[32mhardhat_metadata (3)[0m
+[32mhardhat_metadata (4)[0m
+[32mhardhat_metadata (5)[0m
+[32mhardhat_metadata (6)[0m
+[32mhardhat_metadata (7)[0m
+[32mhardhat_metadata (8)[0m
+[32mhardhat_metadata (9)[0m
+[32mhardhat_metadata (10)[0m
+[32mhardhat_metadata (11)[0m
+[32mhardhat_metadata (12)[0m
+[32mhardhat_metadata (13)[0m
+[32mhardhat_metadata (14)[0m
+[32mhardhat_metadata (15)[0m
+[32mhardhat_metadata (16)[0m
+[32mhardhat_metadata (17)[0m
+[32mhardhat_metadata (18)[0m
+[32mhardhat_metadata (19)[0m
+[32mhardhat_metadata (20)[0m
+[32meth_accounts[0m
+[32mhardhat_metadata[0m
+[32mhardhat_metadata (2)[0m
+[32mhardhat_metadata (3)[0m
+[32mhardhat_metadata (4)[0m
+[32mhardhat_metadata (5)[0m
+[32mhardhat_metadata (6)[0m
+[32mhardhat_metadata (7)[0m
+[32mhardhat_metadata (8)[0m
+[32mhardhat_metadata (9)[0m
+[32mhardhat_metadata (10)[0m
+[32mhardhat_metadata (11)[0m
+[32mhardhat_metadata (12)[0m
+[32mhardhat_metadata (13)[0m
+[32mhardhat_metadata (14)[0m
+[32mhardhat_metadata (15)[0m
+[32mhardhat_metadata (16)[0m
+[32mhardhat_metadata (17)[0m
+[32mhardhat_metadata (18)[0m
+[32mhardhat_metadata (19)[0m
+[32mhardhat_metadata (20)[0m
+[32meth_blockNumber[0m
+[32meth_getBlockByNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       EduToken#approve
+  Transaction:         0x3097c9aa4a5c0282d8c72355a8f8ebc0416617099485eca65a4dd93ca6af84de
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+  Value:               0 ETH
+  Gas used:            46355 of 16777216
+  Block #11:           0xa8bb2ee5aad5d6da51958ba1ee2b772710658dd85853fa2ac3484ac9458e4918
+
+[32meth_getTransactionByHash[0m
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_feeHistory[0m
+[32meth_sendTransaction[0m
+  Contract call:       Staking#stake
+  Transaction:         0xc2b1f75fcc23c9f2fa04d12455826cc6eb0c2116ff4fccc1f5ca62e27aaaee70
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+  Value:               0 ETH
+  Gas used:            108883 of 16777216
+  Block #12:           0xfe0868e5aa86ff84cc7d82c02ccf40b92853ffe0b05efb4c1235b588826231e5
+
+[32meth_getTransactionByHash[0m
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       EduToken#allowance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_chainId[0m
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#symbol
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduToken#decimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_getTransactionCount[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       EduToken#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_getBlockByNumber[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_gasPrice[0m
+[32meth_getBlockByNumber[0m
+[32meth_maxPriorityFeePerGas[0m
+[32meth_blockNumber[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       EduBadgeNFT#mintBadge
+  Transaction:         0x6277f3d495c971575f12114d646f83ba9144f5837182194e9a51cbf53df72341
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+  Value:               0 ETH
+  Gas used:            162963 of 162963
+  Block #13:           0xc9aecf0762b95f30cb7ecace128a6eaebc9e380bc0f2892f9d41c82fe0d6e33e
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_getBlockByNumber[0m
+[32meth_gasPrice[0m
+[32meth_maxPriorityFeePerGas[0m
+[32meth_blockNumber[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       EduToken#approve
+  Transaction:         0x103131fc1dc33b2cac5ed0d8e5608e529564108db2000bda766a85146477760f
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+  Value:               0 ETH
+  Gas used:            46355 of 46355
+  Block #14:           0x1abf87e73881c4a13ff1c1de71929eda143359c4f14016e33472a4403e69e022
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_getBlockByNumber[0m
+[32meth_gasPrice[0m
+[32meth_maxPriorityFeePerGas[0m
+[32meth_blockNumber[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       EduToken#approve
+  Transaction:         0xab6b3453d3803e6c4a589bf5a2559e068e6b44daed23fc46f7c97060c1d2862d
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+  Value:               0 ETH
+  Gas used:            26455 of 26455
+  Block #15:           0xb1f0804ca1520948e7f912b743b0145f39a6b545f77083ca258f7f14f05421f1
+
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_getTransactionCount[0m
+[32meth_chainId[0m
+[32meth_estimateGas[0m
+[32meth_chainId[0m
+[32meth_chainId (2)[0m
+[32meth_maxPriorityFeePerGas[0m
+[32meth_getBlockByNumber[0m
+[32meth_gasPrice[0m
+[32meth_chainId[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       Staking#stake
+  Transaction:         0x046835a0a8717a8bb5c4b9c49b0266aa544ddf136e210caf107747f55e87ee73
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+  Value:               0 ETH
+  Gas used:            93461 of 103683
+  Block #16:           0xbfcf5ff37a9f7525dcfd5dd322680ae17594c7d61c46274c8a257a90668176c3
+
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_chainId[0m
+[32meth_getTransactionCount[0m
+[31meth_estimateGas[0m
+  Contract call:       Staking#stake
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+  Value:               0 ETH
+
+  Error: VM Exception while processing transaction: reverted with an unrecognized custom error (return data: 0xfb8f41b2000000000000000000000000dc64a140aa3e981100a9beca4e685f962f0cf6c900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008ac7230489e80000)
+
+[32meth_blockNumber[0m
+[32meth_chainId[0m
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_call[0m
+  Contract call:       Staking#getCurrentApyBps
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#totalStaked
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getLatestPrice
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       PriceConsumer#getPriceFeedDecimals
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#proposalCount
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_call[0m
+  Contract call:       EduToken#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xe7f1725e7734ce288f8367e1bb143e90bb3f0512
+
+[32meth_call[0m
+  Contract call:       EduBadgeNFT#balanceOf
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x9fe46736679d2d9a65f0992f2272de9f3c7fa6e0
+
+[32meth_call[0m
+  Contract call:       Staking#getStakedBalance
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       Staking#getPendingRewards
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xdc64a140aa3e981100a9beca4e685f962f0cf6c9
+
+[32meth_call[0m
+  Contract call:       SimpleDAO#getProposal
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x5fc8d32690cc91d4c39d9d3abcbd16989f875707
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_blockNumber (8)[0m
+[32meth_blockNumber (9)[0m
+[32meth_blockNumber (10)[0m
